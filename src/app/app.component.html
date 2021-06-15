@@ -1,0 +1,24 @@
+<!-- <h1>{{title}}</h1> display the data
+<input type="text" [value]='name'> one way data binding
+<br>
+<input type="text" [(ngModel)]='testVar'> 2-way databinding
+<br>
+<p>{{testVar}}</p>
+<br>
+<button (click)="save()">Click Me</button> -->
+<h1>Welcome to LMS</h1>
+<ul>
+  <li>
+    <a routerLink="upload">Upload Assignment</a>
+  </li>
+  <li>
+    <a routerLink="delete">Delete Assignment</a>
+  </li>
+  <li>
+    <a routerLink="submit">Submit Assignment</a>
+  </li>
+  <li>
+    <a routerLink="mark">Mark Assignmnt</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
